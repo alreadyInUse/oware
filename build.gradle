@@ -1,0 +1,10 @@
+
+
+task start {
+        dependsOn("frontend:startFrontEnd")
+        finalizedBy("backend:startBackEnd")
+}
+
+task stop {
+        dependsOn("frontend:stopFrontEnd")
+}

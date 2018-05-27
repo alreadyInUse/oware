@@ -1,0 +1,4 @@
+include 'backend'
+include 'frontend'
+
+rootProject.name = 'oware'
